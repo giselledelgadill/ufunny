@@ -1,0 +1,17 @@
+h1{font-size:50px;
+color:dodgerblue;
+}
+button{
+    background-color:lightskyblue;
+    font-size:15px;
+}
+button:hover{background-color: darksalmon;}
+canvas{
+    animation-name:guy;
+    animation-duration:5s;
+    animation-iteration-count:infinite;
+}
+@keyframes guy{
+    from{box-shadow:2px 2px 40px blue;}
+    to{box-shadow:2px 2px 40px orange;}
+}
